@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_pretest_pertemuan5/ui/screens/screens.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 void main() {
@@ -78,7 +79,7 @@ class App extends StatelessWidget {
           ),
         ),
       ),
-      home: const Scaffold(),
+      home: const HomeScreen(),
     );
   }
 }
